@@ -25,6 +25,9 @@ public class OptionalExample {
 		String nullStr = null;//needed, else Typemismatch, cannot convert from Object to String
 		String strFillIfNull = Optional.ofNullable(nullStr).orElse("Hello");
 		println(strFillIfNull);
+		nullStr = "World";
+		strFillIfNull = Optional.ofNullable(nullStr).orElse("Hello");
+		println(strFillIfNull);
 		
 		//print if present
 		str = "Jeetu";
