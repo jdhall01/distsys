@@ -2,6 +2,7 @@ package dp.observer;
 
 import java.util.Scanner;
 
+//https://sourcemaking.com/design_patterns
 public class ObserverDemo {
 
 	public static void main(String[] args) {

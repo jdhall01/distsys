@@ -3,6 +3,7 @@ package dp.command;
 import java.util.ArrayList;
 import java.util.List;
 
+//https://sourcemaking.com/design_patterns
 public class CommandDemo {
 	
 	public static List produceRequests() {

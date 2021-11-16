@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+//https://sourcemaking.com/design_patterns
 public class MediatorDemo {
 
 	public static void main(String[] args) {
